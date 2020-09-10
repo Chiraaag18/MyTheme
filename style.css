@@ -1,0 +1,128 @@
+ body{
+     background:white;
+ }
+
+ header{
+     background:#BA4A00;
+     width: 100%;
+     height: 80px;
+     padding-top: 15px;
+     text-align: center;
+     color:white;
+     
+ }
+ h3{
+     text-align:right;
+     padding-top:16px;
+     padding-right: 5%;
+     height:70px;
+     background:black;
+ }
+ /* h1{
+    text-align:right;
+    padding-top:16px;
+    padding-right: 5%;
+    height:70px;
+    background:red;
+ } */
+  .button {
+    background-color: lightgrey;
+    border: none;
+    border-radius: 8px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    /* margin: 1px 2px; */
+    cursor: pointer;
+}
+.button:hover {background-color: #dfa6c9}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.button {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+  .col-container {
+    column-gap: 40px;
+    display: table;
+    width: 100%;
+  } 
+  .col {    
+    column-gap: 40px;
+    display: table-cell;
+    width: 50%;
+    padding: 235px;
+  }
+  /* div.background {
+    background: url(klematis.jpg) repeat;
+    border: 2px solid black;
+  } */
+  
+  div.transbox {
+    background-color: grey;
+    border: 10px solid grey;
+    opacity: 0.3;
+  }
+  
+  /* div.transbox p {
+    text-align: center;
+    font-weight: bold;
+    color: darkred;
+  } */
+  .box{
+    text-align: center;
+    width: 100%;
+    height: 550px;
+    background: white;
+    padding: 5px;
+    border: 0px solid white;
+    margin: 0;
+  }
+  .inside_box{
+    width: 400px;
+    height: 500px;
+    background:lightgray;
+    padding:10px;
+  }
+  .inside_box1{
+    width: 450px;
+    height: 500px;
+    background: lightgray;
+    padding:10px;
+  }
+  .box1{
+    text-align: center;
+    width: 100%;
+    height: 550px;
+    background: lightgray;
+    padding: 5px;
+    border: 0px solid white;
+    margin: 0;
+  }
+  .inside_boxx{
+    width: 400px;
+    height: 500px;
+    background: white;
+    padding:10px;
+  }
+  .inside_boxx1{
+    width: 450px;
+    height: 500px;
+    background: white;
+    padding:10px;
+  }
+  .coll {    
+    column-gap: 40px;
+    display: table-cell;
+    width: 20%;
+    padding: 200px;
+  }
+  
